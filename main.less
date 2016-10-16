@@ -1,0 +1,222 @@
+
+/* Переменные */
+/* LESS CSS */
+@color:0;
+@colorA:gray;
+@colorL:#FF8C00;
+@alpha:0.8;
+@fontsize:12px;
+.left{
+padding-right:450px;
+padding-top:120px;
+background:#FFE4B5;
+}
+.right{
+position: fixed;
+top: 0;
+right: 0;
+bottom: 0;
+width:400px;
+background:gray;
+z-index:5;
+}
+.nav-pills{
+a{
+color:@colorL;
+}
+}
+.left>.nav-pills>li.active>a, .left>.nav-pills>li.active>a:hover, .left>.nav-pills>li.active>a:focus{
+background-color:@colorL;
+color:white;
+}
+.left{
+.badge{
+color:white;
+background:@colorL;
+}
+}
+.right{
+.badge{
+color:white;
+background:@colorL;
+}
+}
+ .left>.navbar{
+z-index:2;
+ @rgba: rgba(@color,@color,@color,@alpha);
+background-color: @color;
+  background-color: @rgba;
+}
+.first{
+color:@colorA;
+font-size:@fontsize*2;
+}
+.second{
+margin:10px;
+color:@colorA;
+font-size:@fontsize;
+}
+.third{
+color:@colorA;
+font-size:@fontsize*1.5;
+}
+
+.lab{
+    text-align:center;
+    position: fixed;
+    top: 0;
+    background:#ea862e;
+    z-index:3;
+    width: 100px;
+    height: 130px;
+    font-size: @fontsize*2;
+    padding: 10px;
+    padding-top:30px;
+    color: #fff;
+}
+.discount-top{
+position:fixed;
+z-index:3;
+top:130px;
+left:15px;
+width:100px;
+transform:rotate(180deg);
+}
+.tex{
+padding-left:120px;
+}
+.tex{
+button{
+margin-left:100px;
+}
+}
+@media	(max-width:	1200px)	{
+.third{
+display:none;	
+}
+}
+@media	(max-width:	992px)	{
+.second	{
+display:none;	
+}
+}
+@media	(max-width:	768px)	{
+.forth	{
+display:none;	
+}
+.discount-top{
+left:30px;
+}
+}
+.thumbnail pizza-card{
+width:100px;
+}
+.clear{
+padding-left:20px;
+font-size:@fontsize;
+}
+.right>.up>h1{
+padding:20px;
+font-size:@fontsize*2.5;
+}
+.up{
+position:absolute;
+background:white;
+top:0px;
+right:0px;
+width:400px;
+height:140px;
+}
+.middle{
+position:absolute;
+background:#F0F8FF;
+top:140px;
+right:0px;
+height:400px;
+width:400px;
+padding:100px;
+}
+.middle>h1{
+text-align:center;
+font-size:@fontsize*1.5;
+}
+.down{
+position:absolute;
+background:white;
+bottom:0px;
+right:0px;
+width:400px;
+height:140px;
+padding:40px;
+}
+.right>.down>.btn{
+font-size:30px;
+}
+.btn-xl {
+    padding: 10px 20px;
+    border-radius: 10px;
+    width:100%;
+height:60px;
+}
+.clear{
+color:@colorA;
+}
+.pizza-list{
+padding-left:20px;
+}
+.left>h1{
+text-align:center;
+}
+.left>.nav-pills {
+    margin: 0 auto;
+    padding: 5;
+    width: 600px;
+}
+.left>.panel-footer{
+text-align:center;
+width:950px;
+height:140px;
+padding-top:40px;
+}
+.lab1{
+    text-align:center;
+    position: fixed;
+    bottom: 0;
+    background:#ea862e;
+    z-index:3;
+    width: 100px;
+    height: 130px;
+    font-size: @fontsize*1.5;
+    left: 15px;
+    color: #fff;
+}
+.discount-bottom{
+position:fixed;
+z-index:3;
+bottom:130px;
+left:15px;
+width:100px;
+}
+.lab1>hr {
+border-top: 1px dashed white;
+margin:5px;
+}
+.caption>h3{
+color:#ea862e;
+}
+.piz{
+color:@colorA;
+font-size:@fontsize;
+}
+.small{
+text-align:center;
+width:100px;
+padding:5px;
+display:table-cell;
+}
+.number{
+font-size:@fontsize*1.5;
+}
+.all{
+display:table;
+}
